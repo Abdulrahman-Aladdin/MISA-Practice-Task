@@ -1,6 +1,33 @@
 :root {
     --primary-color: #016E44;
+    --light-green: #0BFD14;
+    --orange-color: #FDAA0B;
+    --red-color: #FD280B;
     font-family: 'Tajawal', sans-serif;
+}
+
+.bg-green {
+    background-color: var(--light-green);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+.color-green {
+    color: var(--light-green);
+}
+
+.color-orange {
+    color: var(--orange-color);
+}
+
+.color-red {
+    color: var(--red-color);
 }
 
 .flex-col {
@@ -243,12 +270,23 @@ a {
 
 main {
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 20px;
     padding-left: 120px;
     padding-right: 120px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+footer {
+    padding: 0px 120px 24px 120px;
+    color: #767676;
+}
+
+.end-of-page {
+    width: 100%;
+    height: 0px;
+    border: 1px solid rgba(228, 232, 238, 0.5)
 }
 
 .service-icon {
@@ -504,6 +542,7 @@ main {
     height: 12px;
     border-radius: 50%;
     background-color: var(--primary-color);
+    margin-top: 5px;
 }
 
 .no-wrap {
@@ -529,6 +568,10 @@ main {
 
 .g-4 {
     gap: 4px;
+}
+
+.g-0 {
+    gap: 0px;
 }
 
 .calendar-grid {
@@ -568,4 +611,191 @@ main {
 .selected-day {
     background-color: var(--primary-color);
     color: #fff;
+}
+
+.task-table {
+    width: 100%;
+}
+
+.task-header {
+    width: 100%;
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    background-color: #F5F5F5;
+    color: #9C9C9C;
+    padding: 12px 0;
+}
+
+.active-tab {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.table-header {
+    width: 100%;
+}
+
+.status-dot {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.table-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px 25px 47px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+    border-right: #EDEDED 1px solid;
+    border-bottom: #EDEDED 1px solid;
+}
+
+.transactions-table {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-spacing: 15px;
+    background-color: #FBFBFB;
+}
+
+.yammer-container {
+    width: 100%;
+    height: 230px;
+    background-color: #FBFBFB;
+    border-radius: 15px;
+    display: flex;
+}
+
+.yammer-side-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 5px 13px 13px;
+}
+
+.yammer-side-col img {
+    width: 30px;
+    height: 30px;
+}
+
+.yammer-side-col span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #9C9C9C;
+}
+
+.yammer-main-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 13px 18px 17px 13px;
+}
+
+.yammer-discussion-input {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    border: #fff 1px solid;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.yammer-discussion-input img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.yammer-discussion-input input {
+    border: none;
+    flex: 1;
+    margin: 8px 8px 8px 8px;
+    padding: 8px 8px;
+}
+
+.triangle {
+    margin-right: 8px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 0 15px 30px;
+    border-color: transparent transparent transparent #EDEDED;
+    transform: rotate(0deg);
+}
+
+::placeholder {
+    font-size: 18px;
+    font-weight: 700;
+    color: #AEAEAE;
+}
+
+.yammer-actions {
+    display: flex;
+    margin-top: 8px;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.disc-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.ques-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.poll-icon {
+    width: 32px;
+    height: 20px;
+}
+
+.g-2 {
+    gap: 2px;
+}
+
+.color-gold {
+    color: #FCB63A;
+}
+
+.color-cyan {
+    color: #44C1ED;
+}
+
+.color-purple {
+    color: #5218F6;
+}
+
+.down-triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 10px 7px 0 7px;
+    border-color: #000 transparent transparent transparent;
+    transform: rotate(0deg);
+}
+
+.yammer-conversation-label {
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    align-items: center;
 }
