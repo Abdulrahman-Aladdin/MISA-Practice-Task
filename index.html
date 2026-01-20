@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style.css">    
 </head>
 <body>
+    <div class="header-mask"></div>
     <header class="header">
         <div class="logo">
             <img src="assets/logos/logo.png" alt="ministry of investment logo">
@@ -24,563 +24,130 @@
             <div class="header-btn">
                 <img src="assets/icons/settings.png" alt="settings icon">
             </div>
-            <div class="profile-photo">
+            <div class="header-profile-photo">
                 <img src="assets/profilePhoto.jpg" alt="profile photo">
             </div>
             <div class="trns-btn">
                 <img src="assets/icons/translationIcon.png" alt="translation icon">
             </div>
         </div>
-    </header>
-    <div class="nav-bar">
-        <nav class="nav-links">
-            <a href="/#" class="nav-link">
-                <img class="nav-icon" src="assets/icons/Home.svg" alt="home icon">
-                <span class="nav-txt active">الرئيسية</span>
-            </a>
-            <a href="/#" class="nav-link">
-                <img class="nav-icon" src="assets/icons/server.png" alt="home icon">
-                <span class="nav-txt">خدماتي</span>
-            </a>
-            <a href="/#" class="nav-link">
-                <img class="nav-icon" src="assets/icons/computer.png" alt="home icon">
-                <span class="nav-txt">اعتماداتي</span>
-            </a>
-            <a href="/#" class="nav-link">
-                <img class="nav-icon" src="assets/icons/chart.png" alt="home icon">
-                <span class="nav-txt">التقارير</span>
-            </a>
-            <a href="/#" class="nav-link">
-                <img class="nav-icon" src="assets/icons/doc.png" alt="home icon">
-                <span class="nav-txt">الملفات</span>
-            </a>
-        </nav>
-        <div class="date-time">
-            <div class="day-div">
-                <img src="assets/icons/calendar.png" alt="calendar icon">
-                <div class="flex-col g-4">
-                    <span>
-                        السبت
+
+        <div class="nav-bar">
+            <nav class="nav-links bold text-black">
+                <a href="/#" class="nav-link">
+                    <img class="nav-icon" src="assets/icons/Home.svg" alt="home icon">
+                    <span class="active">الرئيسية</span>
+                </a>
+                <a href="/#" class="nav-link">
+                    <img class="nav-icon" src="assets/icons/server.png" alt="home icon">
+                    <span">خدماتي</span>
+                </a>
+                <a href="/#" class="nav-link">
+                    <img class="nav-icon" src="assets/icons/computer.png" alt="home icon">
+                    <span>اعتماداتي</span>
+                </a>
+                <a href="/#" class="nav-link">
+                    <img class="nav-icon" src="assets/icons/chart.png" alt="home icon">
+                    <span>التقارير</span>
+                </a>
+                <a href="/#" class="nav-link">
+                    <img class="nav-icon" src="assets/icons/doc.png" alt="home icon">
+                    <span>الملفات</span>
+                </a>
+            </nav>
+            <div class="date-time">
+                <div class="day-div">
+                    <img src="assets/icons/calendar.png" alt="calendar icon">
+                    <div class="flex-center-col">
+                        <span>
+                            السبت
+                        </span>
+                        <span>
+                            14/01/2023
+                        </span>
+                    </div>
+                </div>
+                <div class="flex-center-col">
+                    <span class="extra-bold s-15">
+                        وقت الدخول
                     </span>
-                    <span>
-                        14/01/2023
+                    <span class="flex-center-row text-primary ltr">
+                        08:00:00 am
+                        <img src="assets/icons/enter.png" alt="clock icon">
+                    </span>
+                </div>
+                <div class="flex-center-col">
+                    <span class="extra-bold s-15">
+                        وقت الخروج
+                    </span>
+                    <span class="flex-center-row text-primary ltr">
+                        04:00:00 pm
+                        <img src="assets/icons/leave.png" alt="clock icon">
                     </span>
                 </div>
             </div>
-            <div class="flex-col g-4">
-                <span class="extra-bold s-15">
-                    وقت الدخول
-                </span>
-                <span class="flex-row primary-color ltr">
-                    08:00:00 am
-                    <img src="assets/icons/enter.png" alt="clock icon">
-                </span>
-            </div>
-            <div class="flex-col g-4">
-                <span class="extra-bold s-15">
-                    وقت الخروج
-                </span>
-                <span class="flex-row primary-color ltr">
-                    04:00:00 pm
-                    <img src="assets/icons/leave.png" alt="clock icon">
-                </span>
-            </div>
         </div>
-    </div>
+    </header>
+    
     <main>
-        <section class="services-bar flex-row">
+        <section class="services-bar-container">
+            <div class="services-bar flex-center-row">
+                <div class="service-card">
+                    <img src="assets/icons/cloud-svg.svg" alt="one drive icon" class="service-icon">
+                    <span class="service-txt bold s-26">One Drive</span>
+                </div>
+                <div class="service-card">
+                    <img src="assets/icons/flame.png" alt="flame icon" class="service-icon">
+                    <span class="service-txt bold s-26">الهُمام</span>
+                </div>
+                <div class="service-card">
+                    <img src="assets/icons/crm.png" alt="crm icon" class="service-icon">
+                    <span class="service-txt bold s-26">CRM</span>
+                </div>
+                <div class="service-card">
+                    <img src="assets/icons/call.png" alt="contact icon" class="service-icon">
+                    <span class="service-txt bold s-26">أمرني</span>
+                </div>
+                <div class="service-card">
+                    <img src="assets/icons/smile.png" alt="smile face icon" class="service-icon">
+                    <span class="service-txt bold s-26">نسمعك</span>
+                </div>
+                <div class="service-card">
+                    <img src="assets/icons/Fingerprint.png" alt="Fingerprint icon" class="service-icon">
+                    <span class="service-txt bold s-26">حضوري</span>
+                </div>
+            </div>
             <div class="arrow left-arrow">
                 <img src="assets/icons/left-arrow.svg" alt="left arrow">
             </div>
             <div class="arrow right-arrow">
                 <img src="assets/icons/right-arrow.svg" alt="right arrow">
             </div>
-            <div class="service-card">
-                <img src="assets/icons/cloud-svg.svg" alt="one drive icon" class="service-icon">
-                <span class="service-txt bold s-26">One Drive</span>
-            </div>
-            <div class="service-card">
-                <img src="assets/icons/flame.png" alt="flame icon" class="service-icon">
-                <span class="service-txt bold s-26">الهُمام</span>
-            </div>
-            <div class="service-card">
-                <img src="assets/icons/crm.png" alt="crm icon" class="service-icon">
-                <span class="service-txt bold s-26">CRM</span>
-            </div>
-            <div class="service-card">
-                <img src="assets/icons/call.png" alt="contact icon" class="service-icon">
-                <span class="service-txt bold s-26">أمرني</span>
-            </div>
-            <div class="service-card">
-                <img src="assets/icons/smile.png" alt="smile face icon" class="service-icon">
-                <span class="service-txt bold s-26">نسمعك</span>
-            </div>
-            <div class="service-card">
-                <img src="assets/icons/Fingerprint.png" alt="Fingerprint icon" class="service-icon">
-                <span class="service-txt bold s-26">حضوري</span>
-            </div>
         </section>
 
-        <section class="flex-row sections-container">
-            <div class="flex-col main-section">
-                <div class="flex-row section-header">
-                    <span class="extra-bold s-26">
-                        يامر | Yammer
-                    </span>
-                    <div class="h-line"></div>
-                </div>
-                <div class="yammer-container ltr">
-                    <div class="yammer-side-col">
-                        <img src="assets/icons/feedIcon.png" alt="">
-                        <span>Feed</span>
-                        <img src="assets/icons/notification-alarm-bell-svgrepo-com.svg" alt="">
-                        <span>notifications</span>
-                        <img src="assets/icons/communityIcon.png" alt="">
-                        <span>communities</span>
-                        <img src="assets/icons/message-1.png" alt="">
-                        <span>Inbox</span>
-                    </div>
-                    <div class="yammer-main-div">
-                        <div class="yammer-discussion-input">
-                            <img src="assets/profilePhoto.jpg" alt="">
-                            <input type="text" placeholder="Start the discussion">
-                            <div class="triangle"></div>
-                        </div>
-                        <div class="yammer-actions">
-                            <div class="flex-row g-2">
-                                <img src="assets/icons/discussionIcon.png" alt="" class="disc-icon">
-                                <span class="color-gold">discussion</span>
-                            </div>
-                            <div class="flex-row g-2">
-                                <img src="assets/icons/questionsIcon.jpg" alt="" class="ques-icon">
-                                <span class="color-cyan">question</span>
-                            </div>
-                            <div class="flex-row g-2">
-                                <img src="assets/icons/pollIcon.jpg" alt="" class="poll-icon">
-                                <span class="color-purple">Poll</span>
-                            </div>
-                        </div>
-                        <div class="yammer-conversation-label">
-                            <span>All Conversations</span>
-                            <div class="down-triangle"></div>
-                        </div>
-                        <div class="yammer-profile-data">
-                            <img src="assets/profilePhoto.jpg" alt="">
-                            <div class="yammer-profile-col">
-                                <span class="bold s-10">Abdulah M. Al-Faifi</span>
-                                <span class="bold s-8" style="color:#9C9C9C;">yesterday at 2:00 PM</span>
-                            </div>
-                        </div>
-                        <span class="bold s-18 yammer-txt-span">Start building the new internal portal of MISA ....</span>
-                        <div class="yammer-reactions">
-                            <div class="yammer-reaction">
-                                <img src="assets/icons/like-svgrepo-com.svg" alt="">
-                                <span>Like</span>
-                            </div>
-                            <div class="yammer-reaction">
-                                <img src="assets/icons/comment-2-svgrepo-com.svg" alt="">
-                                <span>Comment</span>
-                            </div>
-                            <div class="yammer-reaction">
-                                <img src="assets/icons/share-alt-svgrepo.svg" alt="">
-                                <span>Share</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-col main-section">
-                <div class="flex-row section-header">
-                    <span class="extra-bold s-26">
-                        معاملاتي
-                    </span>
-                    <div class="h-line"></div>
-                </div>
-                <div class="flex-col tasks-table main-section g-0">
-                    <div class="flex-row g-0 table-header">
-                        <div class="task-header active-tab">معاملاتي</div>
-                        <div class="task-header">معاملات الإدارة</div>
-                    </div>
-                    
-                    <table class="transactions-table">
-                        <tr class="bold s-18">
-                            <th>نوع المعاملة</th>
-                            <th>عنوان المعاملة</th>
-                            <th>أهمية المعاملة</th>
-                        </tr>
-                        <tr class="medium s-16">
-                            <td>صادر خارجي</td>
-                            <td>معاملة بشأن رد على معالي الوزير</td>
-                            <td>هام</td>
-                        </tr>
-                        <tr class="medium s-16">
-                            <td>صادر خارجي</td>
-                            <td>معاملة بشأن رد على معالي الوزير</td>
-                            <td class="color-red">عاجل</td>
-                        </tr>
-                    </table>
-                
-                    
-                </div>
-            </div>
-        </section>
-
-        <section class="flex-row sections-container">
-            <div class="flex-col main-section">
-                <div class="flex-row section-header">
-                    <span class="extra-bold s-26">
-                        أحدث الأخبار
-                    </span>
-                    <div class="h-line"></div>
-                </div>
-                <div class="flex-row">
-                    <img src="assets/content/latestNews.jpg" alt="" class="news-img">
-                    <div class="v-line"></div>
-                    <div class="flex-col ai-stretch">
-                        <span class="extra-bold primary-color s-20">
-                            أخبار الوزارة
-                        </span>
-                        <div class="flex-row ai-stretch">
-                            <div class="primary-dot"></div>
-                            <p class="shrink m-0 medium s-16">
-                                وزارة الاستثمار: التراخيص الاستثمارية تقفز 673.4% في الربع الثاني .. والمناخ الاستثماري يجني ثمار الإصلاحات
-                            </p>
-                            <div class="end-of-txt"></div>
-                        </div>
-                        <div class="flex-row ai-start">
-                            <div class="primary-dot"></div>
-                            <p class="shrink m-0 medium s-16">
-                                التقى اليوم معالي وزير الاستثمار المهندس خالد الفالح بسمو سفيرة
-                                المملكة لدى الولايات المتحددة الأمريكية .
-                            </p>
-                        </div>
-                        <div class="h-line"></div>
-                        <span class="extra-bold primary-color s-20">
-                            أخبار الداخلية
-                        </span>
-                        <div class="flex-row ai-stretch no-wrap">
-                            <div class="primary-dot"></div>
-                            <p class="shrink m-0 medium s-16">
-                                التقى اليوم معالي وزير الاستثمار المهندس خالد الفالح بسمو سفيرة
-                                المملكة لدى الولايات المتحددة الأمريكية .
-                            </p>
-                            <div class="end-of-txt"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-col shrink">
-                <div class="flex-row section-header">
-                    <span class="extra-bold s-26">
-                        تويتر
-                    </span>
-                    <div class="h-line"></div>
-                </div>
-                <img src="assets/content/twitter.jpg" alt="" width="377px">
-                <span class="bold s-16">تم عقد تعاون بين معالي وزير الاستثمار المهندس خالد الفالح بسمو سفيرة المملكة لدى الولايات المتحددة الأمريكية</span>
-                <span class="regular s-14">تم عقد تعاون بين معالي وزير الاستثمار المهندس خالد الفالح بسمو سفيرة المملكة لدى الولايات المتحددة الأمريكية تم عقد
-                تعاون بين معالي وزير الاستثمار المهندس خالد الفاتح بسمو</span>
-                <div class="dots-group">
-                    <div class="dot"></div>
-                    <div class="dot active-dot"></div>
-                    <div class="dot"></div>
-                </div>
-            </div>
-        </section>
-
-        <section class="flex-col main-section">
-            <div class="flex-row section-header">
-                <span class="extra-bold s-26">
-                    المهام اليومية
-                </span>
-                <div class="h-line"></div>
-            </div>
-            <div class="flex-row ai-start main-section">
-                <div class="flex-col calendar-container">
-                    <div class="flex-row calendar-header">
-                        <img src="assets/icons/arrow-right.svg" alt="">
-                        <span class="regular s-18">يناير 2023</span>
-                        <img src="assets/icons/arrow-left.svg" alt="">
-                    </div>
-                    <div class="calendar-grid">
-                        <div class="header-day">جمعة</div>
-                        <div class="header-day">سبت</div>
-                        <div class="header-day">أحد</div>
-                        <div class="header-day">اثنين</div>
-                        <div class="header-day">ثلاثاء</div>
-                        <div class="header-day">أربعاء</div>
-                        <div class="header-day">خميس</div>
-                    </div>
-                </div>
-
-                <div class="flex-col tasks-table main-section g-0">
-                    <div class="flex-row g-0 table-header">
-                        <div class="task-header active-tab">المهام الجديدة</div>
-                        <div class="task-header">المهام المنجزة</div>
-                    </div>
-
-                    
-                    <div class="table-row">
-                        <span class="flex-row">
-                            <div class="status-dot bg-green"></div>
-                            بناء الموقع الداخلي للوزارة
-                        </span>
-                        <span class="primary-color">
-                            مهمة عادية
-                        </span>
-                        <span>
-                            11/01/2023
-                        </span>
-                        <span class="primary-color">
-                            جاري العمل
-                        </span>
-                    </div>
-                    <div class="table-row">
-                        <span class="flex-row">
-                            <div class="status-dot bg-orange"></div>
-                            بناء الموقع الداخلي للوزارة
-                        </span>
-                        <span class="color-orange">
-                            مهمة عادية
-                        </span>
-                        <span>
-                            11/01/2023
-                        </span>
-                        <span class="primary-color">
-                            جاري العمل
-                        </span>
-                    </div>
-                    <div class="table-row">
-                        <span class="flex-row">
-                            <div class="status-dot bg-red"></div>
-                            بناء الموقع الداخلي للوزارة
-                        </span>
-                        <span class="color-red">
-                            مهمة عادية
-                        </span>
-                        <span>
-                            11/01/2023
-                        </span>
-                        <span class="primary-color">
-                            جاري العمل
-                        </span>
-                    </div>
-                    <div class="table-row">
-                        <span class="flex-row">
-                            <div class="status-dot bg-green"></div>
-                            بناء الموقع الداخلي للوزارة
-                        </span>
-                        <span class="primary-color">
-                            مهمة عادية
-                        </span>
-                        <span>
-                            11/01/2023
-                        </span>
-                        <span class="primary-color">
-                            جاري العمل
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="flex-row sections-container">
-            <div class="flex-col main-section">
-                <div class="flex-row section-header">
-                    <span class="extra-bold s-26">
-                        حياكم
-                    </span>
-                    <div class="h-line"></div>
-                </div>
-                <span class="bold s-22 primary-color">إدارة حلول الأعمال !</span>
-                <div class="flex-row">
-                    <div class="primary-arrow">
-                        <img src="assets/icons/white-left-arrow.svg" alt="left arrow">
-                    </div>
-                    <img src="assets/profilePhoto.jpg" alt="profile photo" class="welcome-img">
-                    <div class="flex-col s-22 medium ai-start lh-narrow">
-                        <span>عبدالله الفيفي</span>
-                        <span>مسؤول تطوير الأعمال</span>
-                        <span>Afaifi@misa.gov.sa</span>
-                        <span class="ltr">+966 50 181 9518</span>
-                    </div>
-                    <div class="primary-arrow">
-                        <img src="assets/icons/white-right-arrow.svg" alt="right arrow">
-                    </div>
-                </div>
-            </div>
-            <div class="flex-col main-section">
-                <div class="flex-row section-header">
-                    <span class="extra-bold s-26">
-                        العرووض
-                    </span>
-                    <div class="h-line"></div>
-                </div>
-
-                <div class="card-stack">
-                    <div class="card">
-                        <img src="assets/content/walaaPlus.png" alt="walaa plus image" class="offer-img">
-                    </div>
-                    <div class="card">
-                        <img src="assets/content/alshaikhCamp.svg" alt="alshaikh camp image" class="offer-img">
-                    </div>
-                    <div class="card">
-                        <img src="assets/content/ghasily.svg" alt="ghasily image" class="offer-img">
-                    </div>
-                </div>
-                <div class="dots-group">
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot active-dot"></div>
-                </div>
-            </div>
-        </section>
-        <section class="flex-row sections-container">
-            <div class="flex-col">
-                <div class="flex-row section-header">
-                    <span class="extra-bold s-26">
-                        إعلانات الوزارة
-                    </span>
-                    <div class="h-line"></div>
-                </div>
-                <div class="flex-col img-wrap" style="width: 400px;height: 170px;">
-                    <div class="new-mark">
-                        <span class="bold s-26">
-                            جديد
-                        </span>
-                    </div>
-                    <img src="assets/content/hrDep.jpg" alt="hr department image">
-                </div>
-                <div class="flex-col img-wrap" style="width: 400px;">
-                    <img src="assets/content/law.jpg" alt="hr department image">
-                </div>
-            </div>
-            <div class="flex-col main-section">
-                <div class="flex-row section-header">
-                    <span class="extra-bold s-26">
-                        الأحداث
-                    </span>
-                    <div class="h-line"></div>
-                </div>
-                <div class="flex-row events-section">
-                    <img src="assets/content/investorJourny.jpg" alt="events image" class="events-img">
-                    <div class="flex-col">
-                        <span class="bold s-20">
-                            ورشة عمل حول ( رحلة المستثمر ) في منتدى هيئة المحتوى المحلي
-                        </span>
-                        <span class="regular s-18">
-                            ورشة عمل حول ( رحلة المستثمر ) في منتدى هيئة المحتوى المحلي ورشة عمل حول ( رحلة المستثمر ) في منتدى هيئة المحتوى المحلي
-                            ورشة عمل حول ( رحلة المستثمر ) في منتدى هيئة المحتوى المحلي ورشة عمل حول ( رحلة المستثمر ) في منتدى هيئة المحتوى المحلي
-                            ورشة عمل حول ( رحلة المستثمر ) في منتدى هيئة المحتوى المحلي ورشة عمل حول ( رحلة المستثمر ) في منتدى هيئة المحتوى المحلي
-                            .
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="flex-row sections-container">
-            <div class="flex-col main-section">
-                <div class="flex-row section-header">
-                    <span class="extra-bold s-26">
-                        استديو الوزارة
-                    </span>
-                    <div class="h-line"></div>
-                </div>
-                <div class="video-thumb">
-                    <img src="assets/content/videoThump.jpg" alt="" width="616px">
-                    <div class="overlay"></div>
-                    <img src="assets/icons/videoPlayBtn.svg" alt="play button" class="play-btn">
-                </div>
-                <div class="dots-group">
-                    <div class="dot"></div>
-                    <div class="dot active-dot"></div>
-                    <div class="dot"></div>
-                </div>
-            </div>
-            <div class="flex-col main-section">
-                <div class="flex-col main-section">
-                    <div class="flex-row section-header">
-                        <span class="extra-bold s-26">
-                            التعاميم
-                        </span>
-                        <div class="h-line"></div>
-                    </div>
-                    <div class="flex-row section-content">
-                        <img src="assets/logos/verticalLogo.png" alt="institute of investment logo" height="81px">
-                        <div class="extra-bold s-20">
-                            <span class="red-txt">تعميم /</span>
-                            <span>اكمال إجراءات أهداف الموظف لعام 2023</span>
-                        </div>
-                    </div>
-                    <div class="flex-row section-content">
-                        <img src="assets/logos/verticalLogo.png" alt="institute of investment logo" height="81px">
-                        <div class="extra-bold s-20">
-                            <span class="red-txt">تعميم /</span>
-                            <span>اكمال إجراءات أهداف الموظف لعام 2023</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-col main-section">
-                    <div class="flex-row section-header">
-                        <span class="extra-bold s-26">
-                            الاستبيانات
-                        </span>
-                        <div class="h-line"></div>
-                    </div>
-                    <span class="bold s-18">
-                        ما مدى رضى الموظفين بالخدمات الإلكترونية المتاحة ؟
-                    </span>
-                    <div class="flex-row">
-                        <label class="radio-card">
-                            <input type="radio" name="radio" value="vg">
-                            <img src="assets/icons/veryGood.svg" alt="happy icon">
-                        </label>
-                        <label class="radio-card">
-                            <input type="radio" name="radio" value="vg" checked>
-                            <img src="assets/icons/good.svg" alt="good icon">
-                        </label>
-                        <label class="radio-card">
-                            <input type="radio" name="radio" value="vg">
-                            <img src="assets/icons/notBad.svg" alt="not bad icon">
-                        </label>
-                        <label class="radio-card">
-                            <input type="radio" name="radio" value="vg">
-                            <img src="assets/icons/bad.svg" alt="bad icon">
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="end-of-page"></div>
     </main>
-    <footer>
-        <span class="regular s-14">© 2023 وزارة الاستثمار جميع الحقوق محفوظة.</span>
-    </footer>
     <script>
-        const calendarGrid = document.querySelector('.calendar-grid');
+        const servicesBar = document.querySelector('.services-bar');
+        const leftArrow = document.querySelector('.left-arrow');
+        const rightArrow = document.querySelector('.right-arrow');
 
-        calendarGrid.innerHTML += `
-            <div class="calendar-day inactive-day">30</div>
-            <div class="calendar-day inactive-day">31</div>
-        `;
+        // Scroll Amount: Width of one card + the gap (183px + 24px)
+        const scrollAmount = 207;
 
-        for (let day = 1; day <= 30; day++) {
-            if (day === 15) {
-                calendarGrid.innerHTML += `
-                    <div class="calendar-day selected-day">${day}</div>
-                `;
-            } else {
-                calendarGrid.innerHTML += `
-                    <div class="calendar-day">${day}</div>
-                `;
-            }
-        }
+        rightArrow.addEventListener('click', () => {
+            // Since the page is RTL, scrolling "right" usually moves to the next items
+            servicesBar.scrollBy({
+                left: -scrollAmount,
+                behavior: 'smooth'
+            });
+        });
 
-        for (let i = 1; i <= 3; i++) {
-            calendarGrid.innerHTML += `
-                <div class="calendar-day inactive-day">${i}</div>
-            `;
-        }
+        leftArrow.addEventListener('click', () => {
+            servicesBar.scrollBy({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        });
     </script>
 </body>
 </html>
